@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+    <br>
+    <div class="jumbotron">
+        <h1 class="display-4">Active Connections : <%= value %></h1>
+        <br>
+        <textarea id = "messages" rows="20" class="form-control" placeholder="Your Message Here">
+            <%= messages %>
+</textarea>
+        <br>
+    </div>
+</div>
+<script>
+//   let text;
+//   let value;
+//   let connection;
+//   $( document ).ready(function() {
+//     text = $('#message');
+//     connection = new WebSocket('ws://localhost:3000');
+//     connection.onopen = function () {
+//     };
+//
+// // Log errors
+//     connection.onerror = function (error) {
+//       console.log('WebSocket Error ' + error);
+//     };
+//
+// // Log messages from the server
+//     connection.onmessage = function (e) {
+//
+//       console.log('Server: ' + JSON.stringify(e));
+//       const data = e.data;
+//       let messages ='';
+//       value = data.activeConnections;
+//         for(let message in data.messages){
+//           messages += `${message.id} : ${message.message}};
+//         }
+//     };
+//   });
+//   function sendMessage (message){
+//     connection.send(message);
+//     clear();
+//   }
+//   function clear(){
+//     text.val('');
+//   }
+//   clear();
+//   sendMessage('getConnections');
+
+</script>
+</body>
+</html>

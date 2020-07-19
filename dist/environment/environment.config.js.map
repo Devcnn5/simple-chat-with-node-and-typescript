@@ -1,0 +1,1 @@
+{"version":3,"file":"environment.config.js","sourceRoot":"","sources":["../../src/environment/environment.config.ts"],"names":[],"mappings":";;;AAAa,QAAA,aAAa,GAAG;IAC3B,MAAM,EAAE;QACN,IAAI,EAAE,IAAI;KACX;IACD,SAAS,EAAE;QACT,OAAO,EAAE,gBAAgB;KAC1B;CACF,CAAC"}
